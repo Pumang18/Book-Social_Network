@@ -20,7 +20,7 @@ public class JwtService {
 
 
     private long jwtExpiration=8640000;
-    private String secretKey="8539eab00d1d607ef222b515c59fb6a64355deb466210c2d204ecc7c2cd08042";
+    private String secretKey="";
 
 
     public String extractUsername(String token) {
