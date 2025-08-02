@@ -37,5 +37,9 @@ application:
   file:
     uploads:
       photos-output-path: ./uploads
+  security:
+    jwt:
+      secret-key: 8539eab00d1d607ef222b515c59fb6a64355deb466210c2d204ecc7c2cd08042
+      expiration: 8640000
 server:
   port: 8088
